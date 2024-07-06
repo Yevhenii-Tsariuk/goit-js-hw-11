@@ -13,6 +13,7 @@ img {
   max-height: 100%;
 }
 
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +24,21 @@ img {
   padding-bottom: 24px;
 }
 
-.feedback-form {
+.gallery-info{
+  display: flex;
+
+}
+
+.gallery-item{
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 360px;
+}
+
+.gallery-item-text{
+  display: flex;
+}
+/* .feedback-form {
   border-radius: 8px;
   padding: 24px;
   width: 408px;
@@ -93,4 +108,4 @@ border: none;
 
 button:hover {
   background: #6c8cff;
-}
+} */ 
